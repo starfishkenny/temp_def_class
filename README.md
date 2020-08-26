@@ -24,3 +24,14 @@
 | G       | L       | S       |   |   |
 |         |         |         |   |   |
 |         |         |         |   |   |
+
+# 깃헙에서 강조표시를 할 떄
+- Basic `trend` of the data science.....
+
+
+# 소스코드 입력
+```shell script
+> python -m pip install -U pip
+```
+# 그림파일 예제
+![]()
