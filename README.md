@@ -34,4 +34,4 @@
 > python -m pip install -U pip
 ```
 # 그림파일 예제
-![Harry Kane](E:\data_starfish\Machine_Learning\temp_def_class\img)
+![Harry Kane](E:\data_starfish\Machine_Learning\temp_def_class\img\wdww)
