@@ -1,17 +1,24 @@
 #main.py에서 calculation.py 정의한 함수 불러오기
 
-import calculation as cal
-a=3
-b=4
+# -*- coding: utf-8 -*-
+
+from Arithmetic import plus as pl
+from Arithmetic import subtract as sub
+from dataprocessing import processing
+from dataprocessing import importData
+
+a = 3
+b = 4
 
 def main():
-    print('안녕하세요, main()입니다')
-    print('a+b=', cal.plus(a,b))
-    print('a-b=',cal.subtract(a,b))
-    print('a*b=',cal.multiple(a,b))
-if __name__ == '__main__':
-    main()
+  print("~~ 사칙 연산을 시작합니다 ~~ ")
+  print("a + b =", sub.minus(a, b))
+  print("a - b =", pl.add(a, b))
+  print("~~ 사칙 연산을 종료합니다 ~~ ")
 
+  ## 데이터 전처리 시작
+  data = importData.readData()
+  processing.process_data(data)
 
-# pandas -> pd 처럼
-# 주피터 노트북 -> 1차적
+if __name__ == "__main__":
+  main()
